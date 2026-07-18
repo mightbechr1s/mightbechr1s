@@ -3,29 +3,21 @@
 <!-- ANIMATED HEADER -->
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0891b2,50:06b6d4,100:22d3ee&height=220&section=header&text=mightbechr1s&fontSize=80&fontColor=ffffff&fontAlignY=35&desc=Student+by+day%2C+full-stack+dev+by+night&descSize=16&descAlignY=55&animation=fadeIn&duration=1000"/>
 
-<br/><br/>
-
-<!-- TYPING ANIMATION -->
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=20&duration=3000&pause=1000&color=0891b2&center=true&vCenter=true&multiline=true&repeat=true&width=500&height=100&lines=Building+apps+that+solve+real+problems;Full-Stack+Developer+%7C+IT+Student;Always+learning+something+new)](https://git.io/typing-svg)
 
-<br/>
+<br>
 
-<!-- BADGES -->
 <a href="https://mightbechr1s.github.io/portfolio"><img src="https://img.shields.io/badge/Portfolio-0891b2?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/></a>
 <a href="mailto:chocwebster@gmail.com"><img src="https://img.shields.io/badge/Email-E2E8F0?style=for-the-badge&logo=gmail&logoColor=red" alt="Email"/></a>
 <a href="https://github.com/mightbechr1s"><img src="https://img.shields.io/badge/GitHub-1e293b?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
 
-</div>
-
-<br/>
-
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0891b2,50:06b6d4,100:22d3ee&height=40&section=separator"/>
+
+</div>
 
 ---
 
 ## 👋 About Me
-
-<br/>
 
 ```
 🎓  2nd Year IT Student
@@ -34,17 +26,11 @@
 📍  Based in the Philippines
 ```
 
-<br/>
-
 > *"I don't just write code — I build things that work."*
-
-<br/>
 
 ---
 
 ## 🛠️ Tech Stack
-
-<br/>
 
 <div align="center">
 
@@ -76,13 +62,9 @@
 
 </div>
 
-<br/>
-
 ---
 
 ## 🚀 Featured Projects
-
-<br/>
 
 <table>
 <tr>
@@ -99,8 +81,6 @@
 
 `Next.js` `FastAPI` `Supabase` `OpenAI` `TypeScript`
 
-<br/>
-
 </td>
 <td width="50%" valign="top">
 
@@ -114,8 +94,6 @@
 - Multi-page routing with smooth transitions
 
 `Next.js` `TypeScript` `Motion` `Tailwind`
-
-<br/>
 
 </td>
 </tr>
@@ -133,8 +111,6 @@
 
 `Java` `JavaFX` `Maven` `SQLite`
 
-<br/>
-
 </td>
 <td width="50%" valign="top">
 
@@ -148,8 +124,6 @@
 
 `JavaScript` `HTML` `CSS`
 
-<br/>
-
 </td>
 </tr>
 </table>
@@ -160,13 +134,9 @@
 
 </div>
 
-<br/>
-
 ---
 
 ## 📊 GitHub Stats
-
-<br/>
 
 <div align="center">
 
@@ -174,23 +144,13 @@
 
 <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mightbechr1s&layout=compact&theme=transparent&hide_border=true&title_color=0891b2&text_color=1e293b&langs_count=8" alt="Top Languages"/>
 
-</div>
-
-<br/>
-
-<div align="center">
-
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=mightbechr1s&theme=transparent&hide_border=true&ring=0891b2&fire=06b6d4&currStreakLabel=0891b2&sideLabels=1e293b)
 
 </div>
 
-<br/>
-
 ---
 
 ## 📈 Contribution Graph
-
-<br/>
 
 <div align="center">
 
@@ -198,21 +158,13 @@
 
 </div>
 
-<br/>
-
 ---
 
 <div align="center">
 
-<br/>
-
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0891b2,50:06b6d4,100:22d3ee&height=120&section=footer"/>
 
-<br/>
-
 ![Profile Views](https://komarev.com/ghpvc/?username=mightbechr1s&color=0891b2&style=flat-square&label=PROFILE+VIEWS)
-
-<br/>
 
 *"Every project is a lesson. Every bug is a teacher."*
 
