@@ -8,7 +8,7 @@
 <br>
 
 <a href="https://mightbechr1s.github.io/portfolio"><img src="https://img.shields.io/badge/Portfolio-0891b2?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/></a>
-<a href="mailto:chocwebster@gmail.com"><img src="https://img.shields.io/badge/Email-E2E8F0?style=for-the-badge&logo=gmail&logoColor=red" alt="Email"/></a>
+<a href="mailto:your4tune02@gmail.com"><img src="https://img.shields.io/badge/Email-E2E8F0?style=for-the-badge&logo=gmail&logoColor=red" alt="Email"/></a>
 <a href="https://github.com/mightbechr1s"><img src="https://img.shields.io/badge/GitHub-1e293b?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0891b2,50:06b6d4,100:22d3ee&height=40&section=separator"/>
