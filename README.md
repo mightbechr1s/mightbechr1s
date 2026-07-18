@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- ANIMATED HEADER -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0891b2,50:06b6d4,100:22d3ee&height=220&section=header&text=mightbechr1s&fontSize=80&fontColor=ffffff&fontAlignY=35&desc=Student+by+day%2C+full-stack+dev+by+night&descSize=16&descAlignY=55&animation=fadeIn&duration=1000"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0891b2,50:06b6d4,100:22d3ee&height=220&section=header&text=%20mightbechr1s%20&fontSize=80&fontColor=ffffff&fontAlignY=35&desc=%20Student+by+day%2C+full-stack+dev+by+night%20&descSize=16&descAlignY=60&animation=fadeIn&duration=1000&textPadding=10&descPadding=10"/>
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=20&duration=3000&pause=1000&color=0891b2&center=true&vCenter=true&multiline=true&repeat=true&width=500&height=100&lines=Building+apps+that+solve+real+problems;Full-Stack+Developer+%7C+IT+Student;Always+learning+something+new)](https://git.io/typing-svg)
 
