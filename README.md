@@ -111,7 +111,20 @@
 `JavaScript` `HTML` `CSS`
 
 </td>
-<td width="50%" valign="top"></td>
+<td width="50%" valign="top">
+
+### 📖 Chronicle
+
+> A digital gallery of memories and journeys with friends and groupmates.
+
+- Captured moments from projects and adventures
+- Photo collections with story captions
+- Timeline view of shared experiences
+- A keepsake of the people and places along the way
+
+`Next.js` `TypeScript` `Tailwind` `React`
+
+</td>
 </tr>
 </table>
 
