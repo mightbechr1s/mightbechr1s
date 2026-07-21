@@ -72,32 +72,16 @@
 
 ### 🍳 Yield
 
-> AI-powered cooking app that turns fridge ingredients into step-by-step recipes.
+> AI-powered cooking app — scan barcodes, generate recipes from your pantry, works offline.
 
-- Smart ingredient detection & recipe matching
-- Cooking timers with food safety warnings
-- Smart substitutions & pantry tracking
-- Supabase auth + OpenAI integration
+- Barcode scanning & smart pantry tracking
+- AI recipe generation from available ingredients
+- Offline recipe access & deep link sharing
+- Cross-platform APK via Capacitor
 
-`Next.js` `FastAPI` `Supabase` `OpenAI` `TypeScript`
-
-</td>
-<td width="50%" valign="top">
-
-### 🗺️ Manila City Guide
-
-> Interactive travel guide for Manila with 3D tilt cards & page transitions.
-
-- Animated mascot guide
-- Dark/light theme toggle
-- 3D tilt card interactions
-- Multi-page routing with smooth transitions
-
-`Next.js` `TypeScript` `Motion` `Tailwind`
+`Next.js` `TypeScript` `Tailwind` `Python` `Capacitor`
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 ### 🤝 SkillSync
@@ -112,6 +96,8 @@
 `Java` `JavaFX` `Maven` `SQLite`
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### 📦 StockFlow
@@ -125,6 +111,7 @@
 `JavaScript` `HTML` `CSS`
 
 </td>
+<td width="50%" valign="top"></td>
 </tr>
 </table>
 
