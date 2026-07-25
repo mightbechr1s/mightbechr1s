@@ -9,9 +9,9 @@
 
 <div align="center">
 
-![Status](https://img.shields.io/badge/🟢-Currently+building+Yield-0891b2?style=for-the-badge&labelColor=1e293b)
-![Status](https://img.shields.io/badge/📍-Philippines-0891b2?style=for-the-badge&labelColor=1e293b)
-![Status](https://img.shields.io/badge/🎓-2nd+Year+IT-0891b2?style=for-the-badge&labelColor=1e293b)
+![Status](https://img.shields.io/badge/🟢%20Currently%20building%20Yield-0891b2?style=for-the-badge&labelColor=1e293b)
+![Status](https://img.shields.io/badge/📍%20Philippines-0891b2?style=for-the-badge&labelColor=1e293b)
+![Status](https://img.shields.io/badge/🎓%202nd%20Year%20IT-0891b2?style=for-the-badge&labelColor=1e293b)
 
 </div>
 
@@ -155,9 +155,9 @@
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=mightbechr1s&show_icons=true&theme=transparent&hide_border=true&title_color=0891b2&icon_color=06b6d4&text_color=1e293b&ring_color=0891b2&include_all_commits=true&count_private=true" alt="GitHub Stats"/>
+<img width="49%" src="https://github-readme-stats-anurag.vercel.app/api?username=mightbechr1s&show_icons=true&theme=transparent&hide_border=true&title_color=0891b2&icon_color=06b6d4&text_color=1e293b&ring_color=0891b2&include_all_commits=true&count_private=true" alt="GitHub Stats"/>
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mightbechr1s&layout=compact&theme=transparent&hide_border=true&title_color=0891b2&text_color=1e293b&langs_count=8" alt="Top Languages"/>
+<img width="49%" src="https://github-readme-stats-anurag.vercel.app/api/top-langs/?username=mightbechr1s&layout=compact&theme=transparent&hide_border=true&title_color=0891b2&text_color=1e293b&langs_count=8" alt="Top Languages"/>
 
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=mightbechr1s&theme=transparent&hide_border=true&ring=0891b2&fire=06b6d4&currStreakLabel=0891b2&sideLabels=1e293b)
 
