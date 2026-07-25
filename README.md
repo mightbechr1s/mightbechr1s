@@ -179,7 +179,7 @@
 
 <div align="center">
 
-![Snake animation](https://raw.githubusercontent.com/mightbechr1s/mightbechr1s/output/snake.svg)
+![Snake animation](https://raw.githubusercontent.com/mightbechr1s/mightbechr1s/gh-pages/snake.svg)
 
 </div>
 
