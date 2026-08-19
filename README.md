@@ -2,12 +2,6 @@
 
 <img width="100%" src="./assets/profile-hero.svg" alt="mightbechr1s — Code with a job to do" />
 
-[![Portfolio](https://img.shields.io/badge/PORTFOLIO-38bdf8?style=for-the-badge&logo=vercel&logoColor=white)](https://mightbechr1s.github.io/portfolio)
-[![Email](https://img.shields.io/badge/EMAIL-0b1220?style=for-the-badge&logo=gmail&logoColor=white)](mailto:chrismakesweb@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LINKEDIN-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/cw-webster-ba7266425)
-
-<br />
-
 ![Open to work](https://img.shields.io/badge/OPEN_TO_FREELANCE_PROJECTS-34d399?style=flat-square&labelColor=0b1220)
 ![Philippines](https://img.shields.io/badge/PHILIPPINES-38bdf8?style=flat-square&labelColor=0b1220)
 ![IT student](https://img.shields.io/badge/2ND_YEAR_IT_STUDENT-14b8a6?style=flat-square&labelColor=0b1220)
@@ -78,12 +72,10 @@ I am Chris, a second-year IT student and solutions developer based in the Philip
 
 </div>
 
-<img width="100%" src="./assets/cta-panel.svg" alt="Have a bottleneck worth fixing? Tell me what is slow, repetitive, or getting in the way." />
+<img width="100%" src="./assets/contact-panel.svg" alt="Have a bottleneck worth fixing? Tell me what is slow, repetitive, or getting in the way." />
 
 <div align="center">
-
-[![Portfolio](https://img.shields.io/badge/PORTFOLIO-38bdf8?style=for-the-badge&logo=vercel&logoColor=white)](https://mightbechr1s.github.io/portfolio)
-[![Email](https://img.shields.io/badge/EMAIL-0b1220?style=for-the-badge&logo=gmail&logoColor=white)](mailto:chrismakesweb@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LINKEDIN-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/cw-webster-ba7266425)
-
+  <a href="https://mightbechr1s.github.io/portfolio"><img src="./assets/contact-portfolio.svg" width="31%" alt="View Chris's portfolio" /></a>
+  <a href="mailto:chrismakesweb@gmail.com"><img src="./assets/contact-email.svg" width="31%" alt="Email Chris" /></a>
+  <a href="https://linkedin.com/in/cw-webster-ba7266425"><img src="./assets/contact-linkedin.svg" width="31%" alt="Connect with Chris on LinkedIn" /></a>
 </div>

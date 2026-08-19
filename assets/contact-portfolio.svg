@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 72" role="img" aria-labelledby="title desc">
+  <title id="title">Portfolio</title>
+  <desc id="desc">Open Chris's portfolio.</desc>
+  <rect x="0.5" y="0.5" width="359" height="71" rx="11.5" fill="#0b1220" stroke="#334155"/>
+  <g fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="28" y="21" width="38" height="30" rx="4"/>
+    <path d="M29 30h36"/>
+    <circle cx="35" cy="26" r="1" fill="#38bdf8" stroke="none"/>
+    <circle cx="40" cy="26" r="1" fill="#38bdf8" stroke="none"/>
+    <path d="M39 39h16m-8-4 4 4-4 4"/>
+  </g>
+  <text x="88" y="43" fill="#f8fafc" font-family="Consolas, ui-monospace, monospace" font-size="17" font-weight="700" letter-spacing="2.4">PORTFOLIO</text>
+  <circle cx="326" cy="36" r="3" fill="#34d399"/>
+</svg>
