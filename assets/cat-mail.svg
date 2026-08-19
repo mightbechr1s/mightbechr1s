@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 160" role="img" aria-labelledby="cat-mail-title cat-mail-desc">
+  <title id="cat-mail-title">Cat sending a message</title>
+  <desc id="cat-mail-desc">A friendly navy cat holding a cyan envelope and waving.</desc>
+  <defs>
+    <style type="text/css">
+      /* Paw wave */
+      @keyframes wave {
+        0%, 60%, 100% { transform: rotate(0deg); }
+        15% { transform: rotate(-16deg); }
+        35% { transform: rotate(-6deg); }
+      }
+      .paw-wave { animation: wave 3s ease-in-out infinite; transform-box: fill-box; transform-origin: 12% 88%; }
+
+      /* Envelope pulse */
+      @keyframes envPulse { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.025); } }
+      .env-pulse { animation: envPulse 3s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+
+      @media (prefers-reduced-motion: reduce) {
+        * { animation: none !important; }
+      }
+    </style>
+    <filter id="cat-mail-shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="5" stdDeviation="4" flood-color="#0f172a" flood-opacity=".18"/>
+    </filter>
+  </defs>
+  <g filter="url(#cat-mail-shadow)" stroke="#ffffff" stroke-width="10" stroke-linejoin="round" stroke-linecap="round">
+    <path fill="#0f172a" d="m49 70-3-37 26 18c11-5 25-5 36 0l26-18-3 37c7 9 10 20 8 32-3 25-24 43-49 43s-46-18-49-43c-2-12 1-23 8-32Z"/>
+    <g class="paw-wave">
+      <path fill="#0f172a" d="M128 80c12-8 18-20 16-34 11 5 17 17 13 29 9-1 16 2 21 9-11 10-27 12-42 6Z"/>
+    </g>
+    <g class="env-pulse">
+      <rect x="46" y="101" width="88" height="48" rx="8" fill="#0891b2"/>
+    </g>
+  </g>
+  <g class="env-pulse">
+    <path fill="#22d3ee" d="m51 108 39 27 39-27v9l-39 27-39-27Z"/>
+  </g>
+  <g fill="#ffffff">
+    <circle cx="73" cy="78" r="4"/>
+    <circle cx="107" cy="78" r="4"/>
+  </g>
+  <path fill="none" stroke="#ffffff" stroke-width="5" stroke-linecap="round" d="M82 90c5 6 11 6 16 0"/>
+</svg>

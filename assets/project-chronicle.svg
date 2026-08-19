@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 370" role="img" aria-labelledby="chronicle-title chronicle-desc">
+  <title id="chronicle-title">Chronicle — memory gallery card</title>
+  <desc id="chronicle-desc">Chronicle project card: photos and stories on a timeline. A polaroid photo glyph with a tilted snapshot and a timeline line, a Next.js, TypeScript, React and Tailwind CSS tech line, and a live demo status.</desc>
+  <defs>
+    <style type="text/css">
+      /* A soft sheen sweeps across the photo (glyph animation) */
+      @keyframes chSheen {
+        0%   { transform: translateX(-20px); opacity: 0; }
+        15%  { opacity: .4; }
+        85%  { opacity: .4; }
+        100% { transform: translateX(120px); opacity: 0; }
+      }
+      .sheen { animation: chSheen 4s ease-in-out infinite; }
+
+      /* Low-opacity background sweep */
+      @keyframes sweep {
+        0%   { transform: translateX(-760px); }
+        100% { transform: translateX(760px); }
+      }
+      .sweep { animation: sweep 14s ease-in-out infinite alternate; }
+
+      @media (prefers-reduced-motion: reduce) {
+        .sweep, .sheen { animation: none !important; opacity: 0 !important; }
+      }
+    </style>
+    <linearGradient id="chronicle-sweep" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#38bdf8" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#38bdf8" stop-opacity=".04"/>
+      <stop offset="1" stop-color="#38bdf8" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="chronicle-sheen" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#ffffff" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="chronicle-card-clip">
+      <rect x="0" y="0" width="600" height="370" rx="16"/>
+    </clipPath>
+    <clipPath id="chronicle-clip">
+      <rect x="442" y="160" width="68" height="46" rx="4"/>
+    </clipPath>
+  </defs>
+
+  <!-- Card surface + subtle 1px outer stroke -->
+  <rect x="0" y="0" width="600" height="370" rx="16" fill="#101827"/>
+  <rect x="0.5" y="0.5" width="599" height="369" rx="16" fill="none" stroke="#334155" stroke-opacity=".65" stroke-width="1"/>
+
+  <!-- Background sweep, clipped to the card -->
+  <g clip-path="url(#chronicle-card-clip)">
+    <rect class="sweep" x="-160" y="-60" width="320" height="490" fill="url(#chronicle-sweep)"/>
+  </g>
+
+  <!-- Status: tiny dot + mono label, right aligned -->
+  <circle cx="486" cy="30" r="3" fill="#34d399"/>
+  <text x="564" y="36" text-anchor="end" font-family="Consolas, ui-monospace, SFMono-Regular, monospace" font-size="12" font-weight="600" letter-spacing="1.5" fill="#94a3b8">LIVE DEMO</text>
+
+  <!-- Accent rule, title, tagline -->
+  <rect x="36" y="64" width="30" height="3" rx="1.5" fill="#38bdf8"/>
+  <text x="34" y="128" font-family="Georgia, 'Times New Roman', serif" font-size="46" font-weight="700" fill="#f8fafc">CHRONICLE</text>
+  <text x="36" y="164" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="400" fill="#94a3b8">Photos and stories on a timeline.</text>
+
+  <!-- Polaroid photo glyph (clean line art) -->
+  <g transform="translate(430 168) rotate(-9)">
+    <rect x="-26" y="-20" width="52" height="40" rx="6" fill="#101827" stroke="#94a3b8" stroke-opacity=".5" stroke-width="3"/>
+  </g>
+  <rect x="432" y="152" width="88" height="78" rx="8" fill="#101827" stroke="#38bdf8" stroke-width="3.5"/>
+  <rect x="442" y="160" width="68" height="46" rx="4" fill="#38bdf8"/>
+  <g clip-path="url(#chronicle-clip)">
+    <rect class="sheen" x="446" y="160" width="18" height="46" fill="url(#chronicle-sheen)"/>
+  </g>
+  <rect x="450" y="214" width="52" height="5" rx="2.5" fill="#f8fafc" opacity=".8"/>
+  <path d="M404 246h140" fill="none" stroke="#94a3b8" stroke-opacity=".55" stroke-width="2.5"/>
+  <circle cx="404" cy="246" r="4.5" fill="#101827" stroke="#38bdf8" stroke-width="3"/>
+  <circle cx="474" cy="246" r="4.5" fill="#38bdf8"/>
+  <circle cx="544" cy="246" r="4.5" fill="#101827" stroke="#38bdf8" stroke-width="3"/>
+
+  <!-- Tech line -->
+  <text x="36" y="338" font-family="Consolas, ui-monospace, SFMono-Regular, monospace" font-size="13.5" font-weight="500" letter-spacing=".5" fill="#94a3b8">NEXT.JS · TYPESCRIPT · REACT · TAILWIND</text>
+</svg>

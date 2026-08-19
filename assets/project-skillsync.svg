@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 370" role="img" aria-labelledby="skillsync-title skillsync-desc">
+  <title id="skillsync-title">SkillSync — team coordination desktop app card</title>
+  <desc id="skillsync-desc">SkillSync project card: skill-matched teams, shared tasks. A network glyph with a task checkbox, a Java, JavaFX, Maven and SQLite tech line, and a source available status.</desc>
+  <defs>
+    <style type="text/css">
+      /* Center node breathes gently (glyph animation) */
+      @keyframes ssPulse {
+        0%, 100% { opacity: 1;    transform: scale(1); }
+        50%      { opacity: .8;   transform: scale(1.07); }
+      }
+      .pulse { animation: ssPulse 3s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+
+      /* Low-opacity background sweep */
+      @keyframes sweep {
+        0%   { transform: translateX(-760px); }
+        100% { transform: translateX(760px); }
+      }
+      .sweep { animation: sweep 14s ease-in-out infinite alternate; }
+
+      @media (prefers-reduced-motion: reduce) {
+        .sweep { animation: none !important; opacity: 0 !important; }
+        .pulse { animation: none !important; }
+      }
+    </style>
+    <linearGradient id="skillsync-sweep" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#38bdf8" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#38bdf8" stop-opacity=".04"/>
+      <stop offset="1" stop-color="#38bdf8" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="skillsync-clip">
+      <rect x="0" y="0" width="600" height="370" rx="16"/>
+    </clipPath>
+  </defs>
+
+  <!-- Card surface + subtle 1px outer stroke -->
+  <rect x="0" y="0" width="600" height="370" rx="16" fill="#101827"/>
+  <rect x="0.5" y="0.5" width="599" height="369" rx="16" fill="none" stroke="#334155" stroke-opacity=".65" stroke-width="1"/>
+
+  <!-- Background sweep, clipped to the card -->
+  <g clip-path="url(#skillsync-clip)">
+    <rect class="sweep" x="-160" y="-60" width="320" height="490" fill="url(#skillsync-sweep)"/>
+  </g>
+
+  <!-- Status: tiny dot + mono label, right aligned -->
+  <circle cx="416" cy="30" r="3" fill="#38bdf8"/>
+  <text x="564" y="36" text-anchor="end" font-family="Consolas, ui-monospace, SFMono-Regular, monospace" font-size="12" font-weight="600" letter-spacing="1.5" fill="#94a3b8">SOURCE AVAILABLE</text>
+
+  <!-- Accent rule, title, tagline -->
+  <rect x="36" y="64" width="30" height="3" rx="1.5" fill="#38bdf8"/>
+  <text x="34" y="128" font-family="Georgia, 'Times New Roman', serif" font-size="46" font-weight="700" fill="#f8fafc">SKILLSYNC</text>
+  <text x="36" y="164" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="400" fill="#94a3b8">Skill-matched teams, shared tasks.</text>
+
+  <!-- Connected network glyph (clean line art) -->
+  <g fill="none" stroke="#94a3b8" stroke-opacity=".55" stroke-width="2.5">
+    <path d="M478 198L420 160"/>
+    <path d="M478 198L536 160"/>
+    <path d="M478 198L536 236"/>
+    <path d="M478 198L422 236"/>
+  </g>
+  <circle class="pulse" cx="478" cy="198" r="15" fill="#101827" stroke="#38bdf8" stroke-width="3.5"/>
+  <circle cx="420" cy="160" r="8" fill="#101827" stroke="#38bdf8" stroke-width="3.5"/>
+  <circle cx="536" cy="160" r="8" fill="#101827" stroke="#38bdf8" stroke-width="3.5"/>
+  <circle cx="536" cy="236" r="8" fill="#101827" stroke="#38bdf8" stroke-width="3.5"/>
+  <rect x="410" y="224" width="24" height="24" rx="6" fill="#101827" stroke="#38bdf8" stroke-width="3.5"/>
+  <path d="M417 236l5 5 10-11" fill="none" stroke="#f8fafc" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Tech line -->
+  <text x="36" y="338" font-family="Consolas, ui-monospace, SFMono-Regular, monospace" font-size="13.5" font-weight="500" letter-spacing=".5" fill="#94a3b8">JAVA · JAVAFX · MAVEN · SQLITE</text>
+</svg>

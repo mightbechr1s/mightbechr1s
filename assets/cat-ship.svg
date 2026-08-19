@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 160" role="img" aria-labelledby="cat-ship-title cat-ship-desc">
+  <title id="cat-ship-title">Cat shipping a project</title>
+  <desc id="cat-ship-desc">A navy cat peeking from a cyan box labeled ship it.</desc>
+  <defs>
+    <style type="text/css">
+      /* Gentle box bob */
+      @keyframes bob { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-3px); } }
+      .bob { animation: bob 3.8s ease-in-out infinite; }
+
+      @media (prefers-reduced-motion: reduce) {
+        * { animation: none !important; }
+      }
+    </style>
+    <filter id="cat-ship-shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="5" stdDeviation="4" flood-color="#0f172a" flood-opacity=".18"/>
+    </filter>
+  </defs>
+  <g class="bob">
+    <g filter="url(#cat-ship-shadow)" stroke="#ffffff" stroke-width="10" stroke-linejoin="round" stroke-linecap="round">
+      <path fill="#0f172a" d="m57 76-4-39 27 18c7-3 14-3 21 0l27-18-4 39c5 7 7 15 6 23-2 20-19 34-39 34S54 119 52 99c-1-8 1-16 5-23Z"/>
+      <path fill="#0891b2" d="M28 92h124l-12 57H40Z"/>
+      <path fill="#22d3ee" d="m28 92 29-19 34 19-29 19Zm124 0-29-19-32 19 27 19Z"/>
+    </g>
+    <g fill="#ffffff">
+      <circle cx="74" cy="79" r="4"/>
+      <circle cx="108" cy="79" r="4"/>
+      <path d="M85 90h12c-1 7-11 7-12 0Z"/>
+    </g>
+    <text x="90" y="132" text-anchor="middle" fill="#ffffff" font-family="ui-monospace,monospace" font-size="15" font-weight="700" letter-spacing="2">SHIP IT</text>
+  </g>
+</svg>

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 72" role="img" aria-labelledby="divider-title divider-desc">
+  <title id="divider-title">Section divider</title>
+  <desc id="divider-desc">A thin slate rule with two small paw marks and a short cyan segment that drifts slowly along the line.</desc>
+  <defs>
+    <style type="text/css">
+      /* One restrained animation: the short sky segment drifts along the rule. */
+      @keyframes dividerDrift {
+        0%, 100% { transform: translateX(-100px); }
+        50% { transform: translateX(100px); }
+      }
+      .drift {
+        animation: dividerDrift 12s ease-in-out infinite;
+        transform-box: fill-box;
+        transform-origin: center;
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .drift { animation: none; }
+      }
+    </style>
+  </defs>
+
+  <!-- 1px slate rule -->
+  <line x1="0" y1="36" x2="1200" y2="36" stroke="#334155" stroke-width="1"/>
+
+  <g fill="#38bdf8" opacity=".22">
+    <!-- Left paw mark -->
+    <ellipse cx="400" cy="36" rx="8" ry="10"/>
+    <circle cx="389" cy="26" r="4"/>
+    <circle cx="400" cy="21" r="4"/>
+    <circle cx="411" cy="26" r="4"/>
+    <!-- Right paw mark -->
+    <ellipse cx="800" cy="36" rx="8" ry="10"/>
+    <circle cx="789" cy="26" r="4"/>
+    <circle cx="800" cy="21" r="4"/>
+    <circle cx="811" cy="26" r="4"/>
+  </g>
+
+  <!-- Restrained animated sky segment, drifting in the generous center gap -->
+  <rect class="drift" x="600" y="35" width="160" height="2.5" rx="1.25" fill="#38bdf8" opacity=".45"/>
+</svg>

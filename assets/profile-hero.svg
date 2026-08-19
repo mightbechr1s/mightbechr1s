@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="hero-title hero-desc">
+  <title id="hero-title">mightbechr1s — Code with a job to do</title>
+  <desc id="hero-desc">A clean editorial developer banner on a dark navy surface. It reads CODE WITH A JOB TO DO, with the username mightbechr1s, a service line for web apps, business systems and automation, a role line for solutions developer in the Philippines, and a simple outline cat working at a small terminal.</desc>
+  <defs>
+    <style type="text/css">
+      /* Three restrained animations: the cat's eyes blink, the terminal caret blinks, and a very low-opacity light sweeps slowly across the surface. */
+      @keyframes heroBlink {
+        0%, 90%, 100% { transform: scaleY(1); }
+        93%, 96% { transform: scaleY(.06); }
+      }
+      @keyframes heroCaret {
+        0%, 100% { opacity: 1; }
+        50% { opacity: .12; }
+      }
+      @keyframes heroSweep {
+        0%, 100% { transform: translateX(-420px); }
+        50% { transform: translateX(420px); }
+      }
+      .hero-eye {
+        animation: heroBlink 5.4s ease-in-out infinite;
+        transform-box: fill-box;
+        transform-origin: center;
+      }
+      .hero-caret {
+        animation: heroCaret 1.4s steps(1) infinite;
+      }
+      .hero-sweep {
+        animation: heroSweep 18s ease-in-out infinite;
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .hero-eye, .hero-caret, .hero-sweep { animation: none; }
+      }
+    </style>
+    <linearGradient id="hero-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#101827"/>
+    </linearGradient>
+    <linearGradient id="hero-sweep-g" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38bdf8" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#38bdf8" stop-opacity=".05"/>
+      <stop offset="1" stop-color="#38bdf8" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="360" rx="16" fill="url(#hero-bg)"/>
+
+  <!-- Very low-opacity slow background sweep -->
+  <rect class="hero-sweep" x="460" y="0" width="280" height="360" fill="url(#hero-sweep-g)"/>
+
+  <!-- Left: editorial text block -->
+  <text x="72" y="116" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="18" font-weight="700" letter-spacing="4" fill="#38bdf8">MIGHTBECHR1S</text>
+  <text x="72" y="198" font-family="Georgia, 'Times New Roman', serif" font-size="46" font-weight="700" letter-spacing="0" fill="#f8fafc">CODE WITH A JOB TO DO.</text>
+  <rect x="72" y="222" width="56" height="3" rx="1.5" fill="#34d399"/>
+  <text x="72" y="258" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="15" font-weight="500" letter-spacing="2.5" fill="#94a3b8">WEB APPS  /  BUSINESS SYSTEMS  /  AUTOMATION</text>
+  <text x="72" y="294" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="600" letter-spacing="2.5" fill="#f8fafc">
+    <tspan fill="#f8fafc">SOLUTIONS DEVELOPER</tspan>
+    <tspan fill="#94a3b8">  ·  </tspan>
+    <tspan fill="#f8fafc">PHILIPPINES</tspan>
+  </text>
+
+  <!-- Right: simplified cat terminal illustration (cat behind the terminal, paws on its top edge) -->
+  <g>
+    <!-- Ears -->
+    <path d="M902 102 L898 62 L946 96 Z" fill="#121b2d" stroke="#94a3b8" stroke-width="2" stroke-linejoin="round"/>
+    <path d="M1008 102 L1012 62 L964 96 Z" fill="#121b2d" stroke="#94a3b8" stroke-width="2" stroke-linejoin="round"/>
+    <!-- Head -->
+    <rect x="893" y="98" width="124" height="116" rx="16" fill="#121b2d" stroke="#94a3b8" stroke-width="2"/>
+    <!-- Eyes (blink) -->
+    <rect class="hero-eye" x="924" y="132" width="20" height="32" rx="8" fill="#f8fafc"/>
+    <rect class="hero-eye" x="966" y="132" width="20" height="32" rx="8" fill="#f8fafc"/>
+    <!-- Nose and mouth -->
+    <path d="M955 160 L962 169 L948 169 Z" fill="#34d399"/>
+    <path d="M949 169 Q955 176 961 169" fill="none" stroke="#94a3b8" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Terminal -->
+  <g>
+    <rect x="800" y="206" width="310" height="130" rx="12" fill="#111a2c" stroke="#2c3a55" stroke-width="1.5"/>
+    <circle cx="818" cy="225" r="3" fill="#34d399"/>
+    <text x="828" y="230" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="12" font-weight="500" fill="#94a3b8">~/dev</text>
+    <text x="818" y="268" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="15" font-weight="500">
+      <tspan fill="#38bdf8">&gt; </tspan>
+      <tspan fill="#94a3b8">build the useful part</tspan>
+    </text>
+    <!-- Blinking caret -->
+    <rect class="hero-caret" x="1027" y="255" width="8" height="16" rx="1" fill="#38bdf8"/>
+  </g>
+
+  <!-- Paws resting on the terminal's top edge -->
+  <g fill="#121b2d" stroke="#94a3b8" stroke-width="2">
+    <rect x="906" y="190" width="42" height="32" rx="10"/>
+    <rect x="962" y="190" width="42" height="32" rx="10"/>
+  </g>
+  <g stroke="#94a3b8" stroke-width="2" stroke-linecap="round" opacity=".5">
+    <path d="M922 213 v7"/>
+    <path d="M938 213 v7"/>
+    <path d="M972 213 v7"/>
+    <path d="M988 213 v7"/>
+  </g>
+
+  <!-- Panel border: subtle 1px slate outline -->
+  <rect x="0.5" y="0.5" width="1199" height="359" rx="16" fill="none" stroke="#334155" stroke-opacity=".65" stroke-width="1"/>
+</svg>
