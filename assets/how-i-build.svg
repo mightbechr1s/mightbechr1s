@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" role="img" aria-labelledby="how-i-build-title how-i-build-desc">
+  <title id="how-i-build-title">How I build panel</title>
+  <desc id="how-i-build-desc">A vertical four-step timeline describing how mightbechr1s approaches building software.</desc>
+  <defs>
+    <style type="text/css">
+      /* Caret blink after the headline */
+      @keyframes hbCaret { 0%, 100% { opacity: 1; } 50% { opacity: .12; } }
+      .hb-caret { animation: hbCaret 1.4s steps(1) infinite; }
+
+      /* Timeline node pulse */
+      @keyframes hbNode { 0%, 100% { opacity: 1; } 50% { opacity: .4; } }
+      .hb-node { animation: hbNode 3s ease-in-out infinite; }
+
+      /* Low-opacity background sweep */
+      @keyframes hbSweep { from { transform: translateX(0); } to { transform: translateX(1500px); } }
+      .hb-sweep { animation: hbSweep 15s linear infinite; }
+
+      @media (prefers-reduced-motion: reduce) {
+        * { animation: none !important; }
+      }
+    </style>
+    <linearGradient id="hb-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#101827"/>
+    </linearGradient>
+    <linearGradient id="hb-sweep-fill" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#e2e8f0" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#e2e8f0" stop-opacity="0.045"/>
+      <stop offset="1" stop-color="#e2e8f0" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="hb-clip"><rect width="1200" height="600" rx="16"/></clipPath>
+  </defs>
+
+  <rect width="1200" height="600" rx="16" fill="url(#hb-bg)"/>
+  <rect x="0.5" y="0.5" width="1199" height="599" rx="15.5" fill="none" stroke="#334155" stroke-opacity="0.65"/>
+
+  <!-- Low-opacity sweep band -->
+  <g clip-path="url(#hb-clip)">
+    <g transform="rotate(-6 600 300)">
+      <rect class="hb-sweep" x="-260" y="-140" width="220" height="880" fill="url(#hb-sweep-fill)"/>
+    </g>
+  </g>
+
+  <!-- Header -->
+  <text x="70" y="54" font-family="Consolas, ui-monospace, monospace" font-size="18" font-weight="700" letter-spacing="3" fill="#38bdf8">// PROCESS.SH</text>
+  <text x="70" y="104" font-family="Georgia, 'Times New Roman', serif" font-size="42" font-weight="700" letter-spacing="0" fill="#f8fafc">HOW I BUILD</text>
+  <rect class="hb-caret" x="395" y="70" width="4" height="38" rx="2" fill="#38bdf8"/>
+  <text x="1000" y="96" font-family="Consolas, ui-monospace, monospace" font-size="17" font-weight="700" letter-spacing="2" fill="#94a3b8">4 STEPS</text>
+  <path d="M70 132h1060" stroke="#334155" stroke-opacity="0.7" stroke-width="1"/>
+
+  <!-- Timeline: single thin vertical line, open steps -->
+  <path d="M96 146v424" stroke="#334155" stroke-opacity="0.7" stroke-width="1"/>
+
+  <!-- Step 1 -->
+  <circle class="hb-node" cx="96" cy="190" r="5.5" fill="#38bdf8"/>
+  <path d="M106 190h22" stroke="#38bdf8" stroke-opacity=".5" stroke-width="2"/>
+  <text x="136" y="190" font-family="Consolas, ui-monospace, monospace" font-size="24" font-weight="700" letter-spacing="2" fill="#38bdf8">01</text>
+  <text x="220" y="190" font-family="Georgia, 'Times New Roman', serif" font-size="29" font-weight="700" letter-spacing="0" fill="#f8fafc">Find the expensive friction.</text>
+  <text x="220" y="230" font-family="'Segoe UI', Arial, sans-serif" font-size="20" font-weight="400" fill="#94a3b8">Start with the repeated task, lost information, or customer problem.</text>
+
+  <!-- Step 2 -->
+  <circle class="hb-node" cx="96" cy="306" r="5.5" fill="#38bdf8"/>
+  <path d="M106 306h22" stroke="#38bdf8" stroke-opacity=".5" stroke-width="2"/>
+  <text x="136" y="306" font-family="Consolas, ui-monospace, monospace" font-size="24" font-weight="700" letter-spacing="2" fill="#38bdf8">02</text>
+  <text x="220" y="306" font-family="Georgia, 'Times New Roman', serif" font-size="29" font-weight="700" letter-spacing="0" fill="#f8fafc">Ship the smallest useful version.</text>
+  <text x="220" y="346" font-family="'Segoe UI', Arial, sans-serif" font-size="20" font-weight="400" fill="#94a3b8">Working software creates better feedback than a long feature list.</text>
+
+  <!-- Step 3 -->
+  <circle class="hb-node" cx="96" cy="422" r="5.5" fill="#38bdf8"/>
+  <path d="M106 422h22" stroke="#38bdf8" stroke-opacity=".5" stroke-width="2"/>
+  <text x="136" y="422" font-family="Consolas, ui-monospace, monospace" font-size="24" font-weight="700" letter-spacing="2" fill="#38bdf8">03</text>
+  <text x="220" y="422" font-family="Georgia, 'Times New Roman', serif" font-size="29" font-weight="700" letter-spacing="0" fill="#f8fafc">Design for the real environment.</text>
+  <text x="220" y="462" font-family="'Segoe UI', Arial, sans-serif" font-size="20" font-weight="400" fill="#94a3b8">Mobile screens, limited time, imperfect connectivity, and non-technical users.</text>
+
+  <!-- Step 4 -->
+  <circle class="hb-node" cx="96" cy="538" r="5.5" fill="#38bdf8"/>
+  <path d="M106 538h22" stroke="#38bdf8" stroke-opacity=".5" stroke-width="2"/>
+  <text x="136" y="538" font-family="Consolas, ui-monospace, monospace" font-size="24" font-weight="700" letter-spacing="2" fill="#38bdf8">04</text>
+  <text x="220" y="538" font-family="Georgia, 'Times New Roman', serif" font-size="29" font-weight="700" letter-spacing="0" fill="#f8fafc">Leave the project understandable.</text>
+  <text x="220" y="578" font-family="'Segoe UI', Arial, sans-serif" font-size="20" font-weight="400" fill="#94a3b8">Clear structure and documentation are part of the deliverable.</text>
+</svg>

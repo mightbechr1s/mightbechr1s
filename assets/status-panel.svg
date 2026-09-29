@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" role="img" aria-labelledby="status-panel-title status-panel-desc">
+  <title id="status-panel-title">Current status panel</title>
+  <desc id="status-panel-desc">Four current status rows and an open to freelance projects indicator for mightbechr1s.</desc>
+  <defs>
+    <style type="text/css">
+      /* Caret blink after the headline */
+      @keyframes stCaret { 0%, 100% { opacity: 1; } 50% { opacity: .12; } }
+      .st-caret { animation: stCaret 1.4s steps(1) infinite; }
+
+      /* Status dot pulse */
+      @keyframes stDot { 0%, 100% { opacity: 1; } 50% { opacity: .35; } }
+      .st-dot { animation: stDot 2.4s ease-in-out infinite; }
+
+      /* Low-opacity background sweep */
+      @keyframes stSweep { from { transform: translateX(0); } to { transform: translateX(1500px); } }
+      .st-sweep { animation: stSweep 14s linear infinite; }
+
+      @media (prefers-reduced-motion: reduce) {
+        * { animation: none !important; }
+      }
+    </style>
+    <linearGradient id="st-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#101827"/>
+    </linearGradient>
+    <linearGradient id="st-sweep-fill" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#e2e8f0" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#e2e8f0" stop-opacity="0.045"/>
+      <stop offset="1" stop-color="#e2e8f0" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="st-clip"><rect width="1200" height="380" rx="16"/></clipPath>
+  </defs>
+
+  <rect width="1200" height="380" rx="16" fill="url(#st-bg)"/>
+  <rect x="0.5" y="0.5" width="1199" height="379" rx="15.5" fill="none" stroke="#334155" stroke-opacity="0.65"/>
+
+  <!-- Low-opacity sweep band -->
+  <g clip-path="url(#st-clip)">
+    <g transform="rotate(-6 600 190)">
+      <rect class="st-sweep" x="-260" y="-140" width="220" height="660" fill="url(#st-sweep-fill)"/>
+    </g>
+  </g>
+
+  <!-- Header -->
+  <text x="70" y="54" font-family="Consolas, ui-monospace, monospace" font-size="18" font-weight="700" letter-spacing="3" fill="#38bdf8">// STATUS.SYS</text>
+  <text x="70" y="112" font-family="Georgia, 'Times New Roman', serif" font-size="44" font-weight="700" letter-spacing="0" fill="#f8fafc">CURRENT STATUS</text>
+  <rect class="st-caret" x="522" y="76" width="4" height="38" rx="2" fill="#38bdf8"/>
+
+  <!-- Freelance status: dot + text, no pill -->
+  <circle class="st-dot" cx="700" cy="98" r="6" fill="#34d399"/>
+  <text x="718" y="106" font-family="Consolas, ui-monospace, monospace" font-size="20" font-weight="700" letter-spacing="1" fill="#34d399">OPEN TO FREELANCE PROJECTS</text>
+
+  <path d="M70 138h1060" stroke="#334155" stroke-opacity="0.7" stroke-width="1"/>
+
+  <!-- Status rows (label + value on one line) -->
+  <g font-family="Consolas, ui-monospace, monospace" font-size="20" font-weight="700" letter-spacing="2" fill="#38bdf8">
+    <text x="70" y="182">CURRENTLY BUILDING</text>
+    <text x="70" y="240">CURRENTLY LEARNING</text>
+    <text x="70" y="298">AVAILABLE FOR</text>
+    <text x="70" y="356">DEFAULT APPROACH</text>
+  </g>
+  <g font-family="'Segoe UI', Arial, sans-serif" font-size="24" font-weight="500" fill="#f8fafc">
+    <text x="380" y="182">Yield, an ingredient-to-recipe cooking application</text>
+    <text x="380" y="240">Better product decisions, reliable backends, useful AI</text>
+    <text x="380" y="298">Small-business websites, systems, and automation</text>
+    <text x="380" y="356">Understand the bottleneck before choosing the stack</text>
+  </g>
+</svg>

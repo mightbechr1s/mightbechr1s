@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 370" role="img" aria-labelledby="yield-title yield-desc">
+  <title id="yield-title">Yield — cooking app project card</title>
+  <desc id="yield-desc">Yield project card: your pantry, turned into recipes. A steaming cooking-pot glyph, a Next.js, TypeScript, FastAPI and Supabase tech line, and a live demo status.</desc>
+  <defs>
+    <style type="text/css">
+      /* Steam rises slowly from the pot lid (glyph animation) */
+      @keyframes ySteam {
+        0%   { transform: translateY(8px);  opacity: 0; }
+        30%  { opacity: .85; }
+        100% { transform: translateY(-16px); opacity: 0; }
+      }
+      .steam   { animation: ySteam 3.4s ease-out infinite; }
+      .steam-2 { animation: ySteam 3.4s ease-out infinite; animation-delay: 1.7s; }
+
+      /* Low-opacity background sweep */
+      @keyframes sweep {
+        0%   { transform: translateX(-760px); }
+        100% { transform: translateX(760px); }
+      }
+      .sweep { animation: sweep 14s ease-in-out infinite alternate; }
+
+      @media (prefers-reduced-motion: reduce) {
+        .sweep, .steam, .steam-2 { animation: none !important; opacity: 0 !important; }
+      }
+    </style>
+    <linearGradient id="yield-sweep" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#38bdf8" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#38bdf8" stop-opacity=".04"/>
+      <stop offset="1" stop-color="#38bdf8" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="yield-clip">
+      <rect x="0" y="0" width="600" height="370" rx="16"/>
+    </clipPath>
+  </defs>
+
+  <!-- Card surface + subtle 1px outer stroke -->
+  <rect x="0" y="0" width="600" height="370" rx="16" fill="#101827"/>
+  <rect x="0.5" y="0.5" width="599" height="369" rx="16" fill="none" stroke="#334155" stroke-opacity=".65" stroke-width="1"/>
+
+  <!-- Background sweep, clipped to the card -->
+  <g clip-path="url(#yield-clip)">
+    <rect class="sweep" x="-160" y="-60" width="320" height="490" fill="url(#yield-sweep)"/>
+  </g>
+
+  <!-- Status: tiny dot + mono label, right aligned -->
+  <circle cx="486" cy="30" r="3" fill="#34d399"/>
+  <text x="564" y="36" text-anchor="end" font-family="Consolas, ui-monospace, SFMono-Regular, monospace" font-size="12" font-weight="600" letter-spacing="1.5" fill="#94a3b8">LIVE DEMO</text>
+
+  <!-- Accent rule, title, tagline -->
+  <rect x="36" y="64" width="30" height="3" rx="1.5" fill="#38bdf8"/>
+  <text x="34" y="128" font-family="Georgia, 'Times New Roman', serif" font-size="46" font-weight="700" fill="#f8fafc">YIELD</text>
+  <text x="36" y="164" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="400" fill="#94a3b8">Your pantry, turned into recipes.</text>
+
+  <!-- Cooking pot glyph (clean line art) -->
+  <g fill="none" stroke="#38bdf8" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(457 140)">
+      <g class="steam"><path d="M0 0q4.5-7 0-14q-4.5-7 0-14"/></g>
+    </g>
+    <g transform="translate(493 140)">
+      <g class="steam steam-2"><path d="M0 0q4.5-7 0-14q-4.5-7 0-14"/></g>
+    </g>
+    <rect x="435" y="140" width="80" height="8" rx="4" fill="#101827"/>
+    <path d="M439 170q-11 0-11 12q0 12 11 12"/>
+    <path d="M511 170q11 0 11 12q0 12-11 12"/>
+    <rect x="439" y="150" width="72" height="72" rx="16" fill="#101827"/>
+  </g>
+  <circle cx="475" cy="144" r="4.5" fill="#38bdf8"/>
+
+  <!-- Tech line -->
+  <text x="36" y="338" font-family="Consolas, ui-monospace, SFMono-Regular, monospace" font-size="13.5" font-weight="500" letter-spacing=".5" fill="#94a3b8">NEXT.JS · TYPESCRIPT · FASTAPI · SUPABASE</text>
+</svg>

@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="services-panel-title services-panel-desc">
+  <title id="services-panel-title">What I build panel</title>
+  <desc id="services-panel-desc">Three areas of work for mightbechr1s: website development, business systems, and automation.</desc>
+  <defs>
+    <style type="text/css">
+      /* Caret blink after the headline */
+      @keyframes svCaret { 0%, 100% { opacity: 1; } 50% { opacity: .12; } }
+      .sv-caret { animation: svCaret 1.4s steps(1) infinite; }
+
+      /* Low-opacity background sweep */
+      @keyframes svSweep { from { transform: translateX(0); } to { transform: translateX(1500px); } }
+      .sv-sweep { animation: svSweep 14s linear infinite; }
+
+      @media (prefers-reduced-motion: reduce) {
+        * { animation: none !important; }
+      }
+    </style>
+    <linearGradient id="sv-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#101827"/>
+    </linearGradient>
+    <linearGradient id="sv-sweep-fill" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#e2e8f0" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#e2e8f0" stop-opacity="0.045"/>
+      <stop offset="1" stop-color="#e2e8f0" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="sv-clip"><rect width="1200" height="360" rx="16"/></clipPath>
+  </defs>
+
+  <rect width="1200" height="360" rx="16" fill="url(#sv-bg)"/>
+  <rect x="0.5" y="0.5" width="1199" height="359" rx="15.5" fill="none" stroke="#334155" stroke-opacity="0.65"/>
+
+  <!-- Low-opacity sweep band -->
+  <g clip-path="url(#sv-clip)">
+    <g transform="rotate(-6 600 180)">
+      <rect class="sv-sweep" x="-260" y="-130" width="220" height="620" fill="url(#sv-sweep-fill)"/>
+    </g>
+  </g>
+
+  <!-- Header -->
+  <text x="70" y="56" font-family="Consolas, ui-monospace, monospace" font-size="18" font-weight="700" letter-spacing="3" fill="#38bdf8">// SERVICES.LIST</text>
+  <text x="70" y="114" font-family="Georgia, 'Times New Roman', serif" font-size="44" font-weight="700" letter-spacing="0" fill="#f8fafc">WHAT I BUILD</text>
+  <rect class="sv-caret" x="437" y="80" width="4" height="38" rx="2" fill="#38bdf8"/>
+
+  <path d="M70 142h1060" stroke="#334155" stroke-opacity="0.7" stroke-width="1"/>
+
+  <!-- Vertical separators only (no card boxes) -->
+  <path d="M437 160v176" stroke="#334155" stroke-opacity="0.7" stroke-width="1"/>
+  <path d="M812 160v176" stroke="#334155" stroke-opacity="0.7" stroke-width="1"/>
+
+  <!-- Column 1: Website development -->
+  <g fill="none" stroke="#64748b" stroke-width="1.5">
+    <path d="M70 190h30v22h-30z"/>
+    <path d="M70 197h30"/>
+  </g>
+  <text x="70" y="252" font-family="Consolas, ui-monospace, monospace" font-size="24" font-weight="700" letter-spacing="1" fill="#38bdf8">WEBSITE DEVELOPMENT</text>
+  <text x="70" y="296" font-family="'Segoe UI', Arial, sans-serif" font-size="21" font-weight="400" fill="#e2e8f0">A credible website for a small</text>
+  <text x="70" y="326" font-family="'Segoe UI', Arial, sans-serif" font-size="21" font-weight="400" fill="#e2e8f0">business, fast and trustworthy.</text>
+
+  <!-- Column 2: Business systems -->
+  <g fill="none" stroke="#64748b" stroke-width="1.5">
+    <path d="M445 195a15 5 0 0 1 30 0"/>
+    <path d="M445 195v14a15 5 0 0 0 30 0v-14"/>
+    <path d="M445 202a15 5 0 0 0 30 0"/>
+  </g>
+  <text x="445" y="252" font-family="Consolas, ui-monospace, monospace" font-size="24" font-weight="700" letter-spacing="1" fill="#38bdf8">BUSINESS SYSTEMS</text>
+  <text x="445" y="296" font-family="'Segoe UI', Arial, sans-serif" font-size="21" font-weight="400" fill="#e2e8f0">Replace manual spreadsheets with</text>
+  <text x="445" y="326" font-family="'Segoe UI', Arial, sans-serif" font-size="21" font-weight="400" fill="#e2e8f0">tools that keep up as you grow.</text>
+
+  <!-- Column 3: Automation -->
+  <g fill="none" stroke="#64748b" stroke-width="1.5">
+    <path d="M826 192l-7 12h6l-5 9 12-13h-6z"/>
+  </g>
+  <text x="820" y="252" font-family="Consolas, ui-monospace, monospace" font-size="24" font-weight="700" letter-spacing="1" fill="#38bdf8">AUTOMATION</text>
+  <text x="820" y="296" font-family="'Segoe UI', Arial, sans-serif" font-size="21" font-weight="400" fill="#e2e8f0">Repetitive work runs itself while</text>
+  <text x="820" y="326" font-family="'Segoe UI', Arial, sans-serif" font-size="21" font-weight="400" fill="#e2e8f0">people focus on real problems.</text>
+</svg>

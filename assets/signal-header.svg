@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 150" role="img" aria-labelledby="signal-header-title signal-header-desc">
+  <title id="signal-header-title">GitHub signal anchor</title>
+  <desc id="signal-header-desc">A slim dark strip showing three shipped projects, two live demos, and web plus desktop builds.</desc>
+  <defs>
+    <style type="text/css">
+      /* Caret blink after the label */
+      @keyframes sgCaret { 0%, 100% { opacity: 1; } 50% { opacity: .12; } }
+      .sg-caret { animation: sgCaret 1.4s steps(1) infinite; }
+
+      /* Low-opacity background sweep */
+      @keyframes sgSweep { from { transform: translateX(0); } to { transform: translateX(1500px); } }
+      .sg-sweep { animation: sgSweep 12s linear infinite; }
+
+      @media (prefers-reduced-motion: reduce) {
+        * { animation: none !important; }
+      }
+    </style>
+    <linearGradient id="sg-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#101827"/>
+    </linearGradient>
+    <linearGradient id="sg-sweep-fill" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#e2e8f0" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#e2e8f0" stop-opacity="0.045"/>
+      <stop offset="1" stop-color="#e2e8f0" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="sg-clip"><rect width="1200" height="150" rx="16"/></clipPath>
+  </defs>
+
+  <rect width="1200" height="150" rx="16" fill="url(#sg-bg)"/>
+  <rect x="0.5" y="0.5" width="1199" height="149" rx="15.5" fill="none" stroke="#334155" stroke-opacity="0.65"/>
+
+  <!-- Low-opacity sweep band -->
+  <g clip-path="url(#sg-clip)">
+    <g transform="rotate(-6 600 75)">
+      <rect class="sg-sweep" x="-260" y="-100" width="220" height="350" fill="url(#sg-sweep-fill)"/>
+    </g>
+  </g>
+
+  <!-- Label -->
+  <text x="70" y="64" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-weight="700" letter-spacing="0" fill="#f8fafc">GITHUB SIGNAL</text>
+  <rect class="sg-caret" x="388" y="30" width="4" height="36" rx="2" fill="#38bdf8"/>
+
+  <!-- Subtitle -->
+  <text x="72" y="112" font-family="Consolas, ui-monospace, monospace" font-size="17" font-weight="500" letter-spacing="2.5" fill="#94a3b8">3 SHIPPED PROJECTS · 2 LIVE DEMOS · WEB + DESKTOP</text>
+
+  <!-- Minimal bar glyph -->
+  <g fill="#38bdf8">
+    <rect x="1004" y="70" width="16" height="20" rx="2" opacity=".5"/>
+    <rect x="1030" y="58" width="16" height="34" rx="2" opacity=".72"/>
+    <rect x="1056" y="64" width="16" height="27" rx="2" opacity=".55"/>
+    <rect x="1082" y="52" width="16" height="44" rx="2" opacity="1"/>
+    <rect x="1108" y="58" width="16" height="38" rx="2" opacity=".82"/>
+  </g>
+</svg>
