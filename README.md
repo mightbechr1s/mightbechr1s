@@ -1,138 +1,81 @@
 <div align="center">
 
-# Chris
+<img width="100%" src="./assets/profile-hero.svg" alt="mightbechr1s — Code with a job to do" />
 
-**IT Student · Developer · Builder**
-
-### I build the useful part.
-
-*Philippines · Second-year IT student*
-
-[Portfolio](https://mightbechr1s.github.io/portfolio/) · [GitHub](https://github.com/mightbechr1s) · [Email](mailto:chrismakesweb@gmail.com)
+![Open to work](https://img.shields.io/badge/OPEN_TO_FREELANCE_PROJECTS-34d399?style=flat-square&labelColor=0b1220)
+![Philippines](https://img.shields.io/badge/PHILIPPINES-38bdf8?style=flat-square&labelColor=0b1220)
+![IT student](https://img.shields.io/badge/2ND_YEAR_IT_STUDENT-14b8a6?style=flat-square&labelColor=0b1220)
 
 </div>
 
----
+<p align="center">
+  <img src="./assets/cat-coder.svg" width="96" alt="Cat coding at a laptop" />
+  <img src="./assets/cat-ship.svg" width="96" alt="Cat peeking from a box labeled Ship It" />
+  <img src="./assets/cat-mail.svg" width="96" alt="Cat holding an envelope and waving" />
+</p>
 
-## About
+<p align="center"><em>The build crew — coding, shipping, and getting back to you.</em></p>
 
-I'm Chris, a second-year IT student in the Philippines. Most of what I know about software, I know because I built something that needed it.
+<h2 align="center">I build the useful part.</h2>
 
-I work on practical web applications, business systems, AI-powered tools, and automation — software that replaces a spreadsheet someone was updating by hand at midnight. I also build small tools for students, because the problems closest to me are the ones I can actually test.
+I am Chris, a second-year IT student and solutions developer based in the Philippines. I build practical software for people who have work to finish: websites that establish credibility, business systems that replace manual tracking, and automation that gives time back.
 
-I'm still learning, but I believe the best way to improve is to build, experiment, break things, and ship.
+<img width="100%" src="./assets/status-panel.svg" alt="Current status: building Yield, learning product decisions and reliable backends, available for small-business software, and working problem-first." />
 
-*The framework is a tool. The outcome is the point.*
+<p align="center"><em>The framework is a tool. The outcome is the point.</em></p>
 
----
+<img width="100%" src="./assets/paw-circuit-divider.svg" alt="" />
 
-## Current Focus
+<img width="100%" src="./assets/services-panel.svg" alt="What I build: website development, business systems, and automation that solve practical business problems." />
 
-**Web Development**
-Building practical web applications that people can actually use.
+<img width="100%" src="./assets/paw-circuit-divider.svg" alt="" />
 
-**AI + Automation**
-Exploring useful AI integrations and automation that give time back.
+<h2 align="center">Selected work</h2>
 
-**Software Systems**
-Creating tools designed around real workflows, not demo data.
+<div align="center">
+  <a href="https://frontend-eta-nine-70.vercel.app"><img src="./assets/project-yield.svg" width="48%" alt="Yield — your pantry, turned into recipes. Open the live demo." /></a>
+  <a href="https://github.com/mightbechr1s/SKILLSYNC"><img src="./assets/project-skillsync.svg" width="48%" alt="SkillSync — skill-matched teams and shared tasks. Open the source." /></a>
+  <br />
+  <a href="https://mightbechr1s.github.io/STOCKFLOW/"><img src="./assets/project-stockflow.svg" width="48%" alt="StockFlow — inventory and sales tracking. Open the live demo." /></a>
+  <a href="https://mightbechr1s.github.io/Chronicle/"><img src="./assets/project-chronicle.svg" width="48%" alt="Chronicle — photos and stories on a timeline. Open the live demo." /></a>
+</div>
 
-**UI / UX**
-Learning to make interfaces simple, useful, and polished.
+<details>
+<summary><strong>Project details and source links</strong></summary>
 
----
+- **Yield** — Pantry-to-recipe cooking application · [Live demo](https://frontend-eta-nine-70.vercel.app) · [Source](https://github.com/mightbechr1s/yield)
+- **SkillSync** — Student project coordination desktop app · [Source](https://github.com/mightbechr1s/SKILLSYNC)
+- **StockFlow** — Inventory and sales management · [Live demo](https://mightbechr1s.github.io/STOCKFLOW/) · [Source](https://github.com/mightbechr1s/STOCKFLOW)
+- **Chronicle** — Photo stories and shared timelines · [Live demo](https://mightbechr1s.github.io/Chronicle/) · [Source](https://github.com/mightbechr1s/Chronicle)
 
-## Tech Stack
-
-**Languages**
-`Python` · `Java` · `JavaScript` · `TypeScript` · `HTML` · `CSS`
-
-**Technologies & Tools**
-`React` · `Node.js` · `Git` · `GitHub` · `VS Code` · `Vercel` · `GitHub Pages` · AI APIs
-
-Tools I currently work with and am still learning — not a claim of expertise.
-
----
-
-## Selected Work
-
-### YIELD
-
-AI-powered cooking application.
-
-Turns the ingredients you already have into practical recipe ideas, using AI-powered recommendations and guided cooking steps so you can actually make the meal.
-
-**Built with:** `TypeScript` · `React` · AI APIs
-
-[Live Demo →](https://frontend-eta-nine-70.vercel.app/) · [Source Code →](https://github.com/mightbechr1s/yield)
-
-### STOCKFLOW
-
-Inventory and sales management system.
-
-Designed to help businesses manage inventory, point-of-sale operations, receipts, and analytics — replacing manual tracking with something a small team can rely on day to day.
-
-**Built with:** `JavaScript` · `HTML` · `CSS`
-
-[Live Demo →](https://mightbechr1s.github.io/STOCKFLOW/) · [Source Code →](https://github.com/mightbechr1s/STOCKFLOW)
-
-### SKILLSYNC
-
-Student project coordination system.
-
-A desktop application for organizing student projects, collaboration, and workflow management, so group work stops depending on whoever happens to keep track.
-
-**Built with:** `Java`
-
-[Source Code →](https://github.com/mightbechr1s/SKILLSYNC)
-
-### CHRONICLE
-
-Photo stories and shared timelines.
-
-A web experience for preserving moments through photos, stories, and chronological timelines — the kind of thing that stays readable years later.
-
-**Built with:** `JavaScript`
-
-[Live Demo →](https://mightbechr1s.github.io/Chronicle/) · [Source Code →](https://github.com/mightbechr1s/Chronicle)
-
----
-
-## What I'm Building Toward
-
-I want to create software that goes beyond being a school demonstration.
-
-- **Useful** — Solves an actual problem.
-- **Practical** — Works within a real workflow.
-- **Simple** — Easy to understand and use.
-- **Scalable** — Can grow beyond a school project.
-- **Polished** — Feels like a real product.
-
----
-
-## GitHub
-
-My GitHub holds the projects, experiments, and things I'm currently learning. Most of what you'll find here is me learning by building.
-
-[**github.com/mightbechr1s**](https://github.com/mightbechr1s)
-
----
-
-## Connect
-
-If you're interested in collaborating, building something, or just talking about tech, feel free to reach out.
-
-- **Email** — [chrismakesweb@gmail.com](mailto:chrismakesweb@gmail.com)
-- **Portfolio** — [mightbechr1s.github.io/portfolio](https://mightbechr1s.github.io/portfolio/)
-- **GitHub** — [github.com/mightbechr1s](https://github.com/mightbechr1s)
-- **LinkedIn** — [linkedin.com/in/cw-webster-ba7266425](https://linkedin.com/in/cw-webster-ba7266425)
-
----
+</details>
 
 <div align="center">
 
-**BUILD · LEARN · SHIP**
+[![Explore all repositories](https://img.shields.io/badge/EXPLORE_ALL_REPOSITORIES-38bdf8?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mightbechr1s?tab=repositories)
 
-Still learning. Still building.
+</div>
 
+<img width="100%" src="./assets/paw-circuit-divider.svg" alt="" />
+
+<img width="100%" src="./assets/toolbox-panel.svg" alt="Toolbox: TypeScript, React, Next.js, Tailwind CSS, Python, FastAPI, PHP, REST APIs, MySQL, PostgreSQL, SQLite, Supabase, Java, JavaFX, Maven, Git, GitHub, Docker, and Vercel." />
+
+<img width="100%" src="./assets/how-i-build.svg" alt="How I build: find the expensive friction, ship the smallest useful version, design for the real environment, and leave the project understandable." />
+
+<img width="100%" src="./assets/paw-circuit-divider.svg" alt="" />
+
+<img width="100%" src="./assets/signal-header.svg" alt="GitHub signal: three shipped projects, two live demos, and web plus desktop builds." />
+
+<div align="center">
+
+<img src="https://github-readme-stats-anuraghazra1.vercel.app/api/top-langs/?username=mightbechr1s&layout=compact&theme=github_dark&hide_border=true&bg_color=0b1220&title_color=38bdf8&text_color=e2e8f0&langs_count=6&hide=Swift,Batchfile" alt="Chris's most-used languages" />
+
+</div>
+
+<img width="100%" src="./assets/contact-panel.svg" alt="Have a bottleneck worth fixing? Tell me what is slow, repetitive, or getting in the way." />
+
+<div align="center">
+  <a href="https://mightbechr1s.github.io/portfolio"><img src="./assets/contact-portfolio.svg" width="31%" alt="View Chris's portfolio" /></a>
+  <a href="mailto:chrismakesweb@gmail.com"><img src="./assets/contact-email.svg" width="31%" alt="Email Chris" /></a>
+  <a href="https://linkedin.com/in/cw-webster-ba7266425"><img src="./assets/contact-linkedin.svg" width="31%" alt="Connect with Chris on LinkedIn" /></a>
 </div>
