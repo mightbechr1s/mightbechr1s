@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="Holographic header: a node network over a technical grid">
+  <title>Holographic header — node network over a technical grid</title>
+  <defs>
+    <radialGradient id="glowA" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#35d0e8" stop-opacity="0.16"/>
+      <stop offset="60%" stop-color="#35d0e8" stop-opacity="0.04"/>
+      <stop offset="100%" stop-color="#35d0e8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1d7f90" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#1d7f90" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#35d0e8" stop-opacity="0"/>
+      <stop offset="35%" stop-color="#35d0e8" stop-opacity="0.55"/>
+      <stop offset="70%" stop-color="#35d0e8" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#35d0e8" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="frame"><rect x="0" y="0" width="1200" height="300" rx="14"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="300" fill="#08090d"/>
+
+    <!-- soft holographic light, deliberately off-centre so it reads as depth -->
+    <ellipse cx="300" cy="150" rx="380" ry="300" fill="url(#glowA)"/>
+    <ellipse cx="960" cy="70" rx="300" ry="240" fill="url(#glowB)"/>
+
+    <!-- technical grid -->
+    <g stroke="#1c212b" stroke-width="1" opacity="0.75">
+      <path d="M40 0V300M80 0V300M120 0V300M160 0V300M200 0V300M240 0V300M280 0V300M320 0V300M360 0V300M400 0V300M440 0V300M480 0V300M520 0V300M560 0V300M600 0V300M640 0V300M680 0V300M720 0V300M760 0V300M800 0V300M840 0V300M880 0V300M920 0V300M960 0V300M1000 0V300M1040 0V300M1080 0V300M1120 0V300M1160 0V300"/>
+      <path d="M0 40H1200M0 80H1200M0 120H1200M0 160H1200M0 200H1200M0 240H1200M0 280H1200"/>
+    </g>
+
+    <!-- fine scanlines: texture, not pattern -->
+    <g stroke="#35d0e8" stroke-width="1" opacity="0.03">
+      <path d="M0 6H1200M0 12H1200M0 18H1200M0 24H1200M0 30H1200M0 36H1200M0 42H1200M0 48H1200M0 54H1200M0 60H1200M0 66H1200M0 72H1200M0 78H1200M0 84H1200M0 90H1200M0 96H1200M0 102H1200M0 108H1200M0 114H1200M0 120H1200M0 126H1200M0 132H1200M0 138H1200M0 144H1200M0 150H1200M0 156H1200M0 162H1200M0 168H1200M0 174H1200M0 180H1200M0 186H1200M0 192H1200M0 198H1200M0 204H1200M0 210H1200M0 216H1200M0 222H1200M0 228H1200M0 234H1200M0 240H1200M0 246H1200M0 252H1200M0 258H1200M0 264H1200M0 270H1200M0 276H1200M0 282H1200M0 288H1200M0 294H1200"/>
+    </g>
+
+    <!-- orbital rings, echoing the hero scene -->
+    <g fill="none" stroke="#35d0e8" stroke-width="1" opacity="0.18">
+      <circle cx="760" cy="150" r="95"/>
+      <circle cx="760" cy="150" r="132" opacity="0.6"/>
+      <ellipse cx="760" cy="150" rx="150" ry="52" opacity="0.5" transform="rotate(-18 760 150)"/>
+    </g>
+
+    <!-- node network: the hero's Points/LineSegments composition, flattened -->
+    <g stroke="#35d0e8" stroke-width="1" opacity="0.2">
+      <path d="M760 150L170 205M760 150L300 110M760 150L430 215M760 150L250 255M760 150L560 120M760 150L660 60M760 150L880 230M760 150L1010 110M760 150L1120 205M760 150L700 240"/>
+      <path d="M300 110L170 205M300 110L560 120M430 215L250 255M430 215L700 240M880 230L1010 110M880 230L700 240M1010 110L1120 205" opacity="0.55"/>
+    </g>
+    <g fill="#35d0e8">
+      <circle cx="760" cy="150" r="5" opacity="0.95"/>
+      <circle cx="170" cy="205" r="3" opacity="0.6"/>
+      <circle cx="300" cy="110" r="3" opacity="0.6"/>
+      <circle cx="430" cy="215" r="3" opacity="0.6"/>
+      <circle cx="250" cy="255" r="3" opacity="0.6"/>
+      <circle cx="560" cy="120" r="3" opacity="0.6"/>
+      <circle cx="660" cy="60" r="3" opacity="0.6"/>
+      <circle cx="880" cy="230" r="3" opacity="0.6"/>
+      <circle cx="1010" cy="110" r="3" opacity="0.6"/>
+      <circle cx="1120" cy="205" r="3" opacity="0.6"/>
+      <circle cx="700" cy="240" r="3" opacity="0.6"/>
+    </g>
+    <circle cx="760" cy="150" r="16" fill="none" stroke="#35d0e8" stroke-width="1" opacity="0.35"/>
+  </g>
+
+  <rect x="0.5" y="0.5" width="1199" height="299" rx="14" fill="none" stroke="#1c212b"/>
+  <rect x="0" y="0" width="1200" height="1" fill="url(#edge)"/>
+</svg>

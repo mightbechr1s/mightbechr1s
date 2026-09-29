@@ -1,133 +1,127 @@
+<img src="./assets/hero.svg" alt="Holographic header: a node network over a technical grid" width="100%" />
+
 <div align="center">
 
-# Chris
+# CHRIS
 
-**IT Student · Developer · Builder**
+**IT STUDENT · DEVELOPER · BUILDER**
 
-### I build the useful part.
+### "I build the useful part."
 
-*Philippines · Second-year IT student*
-
-[Portfolio](https://mightbechr1s.github.io/portfolio/) · [GitHub](https://github.com/mightbechr1s) · [Email](mailto:chrismakesweb@gmail.com)
+[Portfolio](https://mightbechr1s.github.io/portfolio/) · [GitHub](https://github.com/mightbechr1s) · [LinkedIn](https://linkedin.com/in/cw-webster-ba7266425) · [Email](mailto:chrismakesweb@gmail.com)
 
 </div>
 
----
+<img src="./assets/divider.svg" alt="" width="100%" />
 
 ## About
 
-I'm Chris, a second-year IT student in the Philippines. Most of what I know about software, I know because I built something that needed it.
+I'm Chris — a second-year IT student from the Philippines focused on building practical software and learning by shipping real projects.
 
-I work on practical web applications, business systems, AI-powered tools, and automation — software that replaces a spreadsheet someone was updating by hand at midnight. I also build small tools for students, because the problems closest to me are the ones I can actually test.
+I work on web applications, business systems, AI-powered applications, automation, and small tools for students. Most of what I know, I know because something needed building and I went and built it.
 
-I'm still learning, but I believe the best way to improve is to build, experiment, break things, and ship.
+> The framework is a tool. The outcome is the point.
 
-*The framework is a tool. The outcome is the point.*
+> I'm still learning, but I believe the best way to improve is to build, experiment, break things, and ship.
 
----
+## Currently Building
 
-## Current Focus
-
-**Web Development**
-Building practical web applications that people can actually use.
-
-**AI + Automation**
-Exploring useful AI integrations and automation that give time back.
-
-**Software Systems**
-Creating tools designed around real workflows, not demo data.
-
-**UI / UX**
-Learning to make interfaces simple, useful, and polished.
-
----
+| FOCUS | WHAT THAT LOOKS LIKE |
+|:---|:---|
+| **WEB DEVELOPMENT** | Practical web applications that people can actually use. |
+| **AI + AUTOMATION** | Useful AI integrations and workflows that give time back. |
+| **SOFTWARE SYSTEMS** | Tools built around real-world workflows, not demo data. |
+| **UI / UX** | Simple, useful, polished interfaces. |
 
 ## Tech Stack
 
-**Languages**
-`Python` · `Java` · `JavaScript` · `TypeScript` · `HTML` · `CSS`
+| | |
+|:---|:---|
+| **Languages** | `Python` · `Java` · `JavaScript` · `TypeScript` · `HTML` · `CSS` |
+| **Tools & Technologies** | `React` · `Node.js` · `Git` · `GitHub` · `VS Code` · `Vercel` · `GitHub Pages` · AI APIs |
 
-**Technologies & Tools**
-`React` · `Node.js` · `Git` · `GitHub` · `VS Code` · `Vercel` · `GitHub Pages` · AI APIs
-
-Tools I currently work with and am still learning — not a claim of expertise.
-
----
+Technologies I use, explore, and am still learning — not a claim of expertise.
 
 ## Selected Work
 
 ### YIELD
 
-AI-powered cooking application.
+**AI-powered cooking application**
 
-Turns the ingredients you already have into practical recipe ideas, using AI-powered recommendations and guided cooking steps so you can actually make the meal.
+<a href="https://frontend-eta-nine-70.vercel.app/"><img src="./assets/yield.webp" alt="Yield, an AI-powered cooking application" width="100%" /></a>
 
-**Built with:** `TypeScript` · `React` · AI APIs
+Turns available ingredients into practical recipes with AI-powered recommendations and guided cooking.
 
-[Live Demo →](https://frontend-eta-nine-70.vercel.app/) · [Source Code →](https://github.com/mightbechr1s/yield)
+| Built with | Links |
+|:---|:---|
+| `TypeScript` · `React` · AI APIs | [Live Demo →](https://frontend-eta-nine-70.vercel.app/) · [Source Code →](https://github.com/mightbechr1s/yield) |
 
 ### STOCKFLOW
 
-Inventory and sales management system.
+**Inventory & sales management system**
 
-Designed to help businesses manage inventory, point-of-sale operations, receipts, and analytics — replacing manual tracking with something a small team can rely on day to day.
+<a href="https://mightbechr1s.github.io/STOCKFLOW/"><img src="./assets/stockflow.webp" alt="StockFlow, an inventory and sales management system" width="100%" /></a>
 
-**Built with:** `JavaScript` · `HTML` · `CSS`
+A practical system designed to help businesses manage inventory, point-of-sale operations, receipts, and analytics.
 
-[Live Demo →](https://mightbechr1s.github.io/STOCKFLOW/) · [Source Code →](https://github.com/mightbechr1s/STOCKFLOW)
+| Built with | Links |
+|:---|:---|
+| `JavaScript` · `HTML` · `CSS` | [Live Demo →](https://mightbechr1s.github.io/STOCKFLOW/) · [Source Code →](https://github.com/mightbechr1s/STOCKFLOW) |
 
 ### SKILLSYNC
 
-Student project coordination system.
+**Student project coordination system**
 
-A desktop application for organizing student projects, collaboration, and workflow management, so group work stops depending on whoever happens to keep track.
+A desktop application designed around organizing student projects, collaboration, and workflow management.
 
-**Built with:** `Java`
-
-[Source Code →](https://github.com/mightbechr1s/SKILLSYNC)
+| Built with | Links |
+|:---|:---|
+| `Java` | [Source Code →](https://github.com/mightbechr1s/SKILLSYNC) |
 
 ### CHRONICLE
 
-Photo stories and shared timelines.
+**Photo stories & shared timelines**
 
-A web experience for preserving moments through photos, stories, and chronological timelines — the kind of thing that stays readable years later.
+<a href="https://mightbechr1s.github.io/Chronicle/"><img src="./assets/chronicle.webp" alt="Chronicle, a photo stories and shared timelines web experience" width="100%" /></a>
 
-**Built with:** `JavaScript`
+A web experience focused on preserving moments through photos, stories, and chronological timelines.
 
-[Live Demo →](https://mightbechr1s.github.io/Chronicle/) · [Source Code →](https://github.com/mightbechr1s/Chronicle)
-
----
+| Built with | Links |
+|:---|:---|
+| `JavaScript` | [Live Demo →](https://mightbechr1s.github.io/Chronicle/) · [Source Code →](https://github.com/mightbechr1s/Chronicle) |
 
 ## What I'm Building Toward
 
-I want to create software that goes beyond being a school demonstration.
+I want my projects to be more than school demonstrations — software that holds up outside the classroom.
 
-- **Useful** — Solves an actual problem.
-- **Practical** — Works within a real workflow.
-- **Simple** — Easy to understand and use.
-- **Scalable** — Can grow beyond a school project.
-- **Polished** — Feels like a real product.
-
----
+| | |
+|:---|:---|
+| **USEFUL** | Solves an actual problem. |
+| **PRACTICAL** | Works in a real workflow. |
+| **SIMPLE** | Easy to understand and use. |
+| **SCALABLE** | Can grow beyond a school project. |
+| **POLISHED** | Feels like a real product. |
 
 ## GitHub
 
-My GitHub holds the projects, experiments, and things I'm currently learning. Most of what you'll find here is me learning by building.
+This account holds the projects, the experiments, and the things I'm currently learning.
+
+> Most of what you'll find here is me learning by building.
 
 [**github.com/mightbechr1s**](https://github.com/mightbechr1s)
 
----
-
 ## Connect
 
-If you're interested in collaborating, building something, or just talking about tech, feel free to reach out.
+If you're interested in collaborating, building something, or talking about tech, feel free to reach out.
 
-- **Email** — [chrismakesweb@gmail.com](mailto:chrismakesweb@gmail.com)
-- **Portfolio** — [mightbechr1s.github.io/portfolio](https://mightbechr1s.github.io/portfolio/)
-- **GitHub** — [github.com/mightbechr1s](https://github.com/mightbechr1s)
-- **LinkedIn** — [linkedin.com/in/cw-webster-ba7266425](https://linkedin.com/in/cw-webster-ba7266425)
+| | |
+|:---|:---|
+| **Email** | [chrismakesweb@gmail.com](mailto:chrismakesweb@gmail.com) |
+| **Portfolio** | [mightbechr1s.github.io/portfolio](https://mightbechr1s.github.io/portfolio/) |
+| **GitHub** | [github.com/mightbechr1s](https://github.com/mightbechr1s) |
+| **LinkedIn** | [linkedin.com/in/cw-webster-ba7266425](https://linkedin.com/in/cw-webster-ba7266425) |
 
----
+<img src="./assets/divider.svg" alt="" width="100%" />
 
 <div align="center">
 
